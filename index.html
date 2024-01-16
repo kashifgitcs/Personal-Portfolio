@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <div class="container">
+        
+        <div class="navbar">
+            <div class="logo">Portfolio</div>
+            <div class="menu-icon">&#9776;</div>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact Me</a></li>
+            </ul>
+        </div>
+        <div class="section home" id="home">
+            <h1>Welcome to my portfolio</h1>
+            <p>I am a web developer and prompt engineer</p>
+            <a href="#about" class="button">Learn More</a>
+        </div>
+        <div class="section about" id="about">
+            <h1>About Me</h1>
+            <p>As a first-year B.Tech student specializing in Computer Science with a focus on Artificial Intelligence and Machine Learning, I am passionate about leveraging cutting-edge technology to solve complex problems. I am dedicated to expanding my knowledge in areas such as data analysis, cyber security, predictive modeling, neural networks, and autonomous systems. I am eager to contribute to the advancement of technology and make a meaningful impact in the field of AI and ML. I am driven by a continuous quest for learning, innovation, and applying theoretical knowledge to real-world applications.</p>
+            <a href="#skills" class="button">See My Skills</a>
+        </div>
+        <div class="section skills" id="skills">
+            <h1>Skills</h1>
+            <ul>
+                <li>
+                    <img src="./html5-logo.png" alt="HTML">
+                    <p>HTML</p>
+                </li>
+                <li>
+                    <img src="./css-logo.png" alt="CSS">
+                    <p>CSS</p>
+                </li>
+                <li>
+                    <img src="./javascript-logo.png" alt="JavaScript">
+                    <p>JavaScript</p>
+                </li>
+                <li>
+                    <img src="./c.png" alt="C">
+                    <p>C</p>
+                </li>
+                <li>
+                    <img src="./java-logo-1.png" alt="Java">
+                    <p>Java</p>
+                </li>
+            </ul>
+            <a href="#projects" class="button">See My Projects</a>
+        </div>
+        <div class="section projects" id="projects">
+            <h1>Projects</h1>
+            <div class="grid">
+                <div class="card">
+                    <img src="./weather.png" alt="Project 1">
+                    <div class="content">
+                        <h3>Weather App</h3>
+                        <p>A Weather webpage.</p>
+                        <a href="https://kashifgitcs.github.io/Weather/"  target="_blank" class="button">View Project</a>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="./png.png" alt="Project 2">
+                    <div class="content">
+                        <h3>Personal Portfolio</h3>
+                        <p>My Personal Portfolio</p>
+                        <a href="#" class="button">View Project</a>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="./netflix.png" alt="Project 3">
+                    <div class="content">
+                        <h3>Project 3</h3>
+                        <p>A description of project 3</p>
+                        <a href="#" class="button">View Project</a>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+        
+    </div>
+
+        <div class="section contact" id="contact">
+            <h1>Contact Me</h1>
+            <div class="links">
+                <a href="https://www.linkedin.com/in/kashif-syed00" class="button" target="_blank">LinkedIn</a>
+                <a href="https://github.com/kashifgitcs" class="button" target="_blank">GitHub</a>
+                <a href="mailto:sdkashif631@gmail.com" class="button" target="_blank">Email</a>
+            </div>
+            
+        </div>
+    </div>
+
+    <script>
+        document.querySelector('.menu-icon').addEventListener('click', function () {
+            document.querySelector('.navbar ul').classList.toggle('show');
+        });
+    </script>
+</body>
+
+</html>
